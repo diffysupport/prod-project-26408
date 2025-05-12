@@ -1,0 +1,89 @@
+basic:
+    name: 'Reitoria UNL'
+    environments:
+        production: 'https://reitoriaunl.dev14.javali.pt/'
+        staging: 'https://reitoriaunl.dev9.javali.pt/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - user/login
+        - organograma/nova
+        - publico/publico/cc_content/missao
+        - cccontent/reitor
+        - cccontent/orgaos-de-gestao-da-unl
+        - cccontent/equipa-reitoral
+        - node/125
+        - organograma
+        - cccontent/atendimento-reitoria
+        - cccontent/estrutura-formal-sasnova
+        - organograma/sas
+        - cccontent/atendimento-sas
+        - publico/publico/cc_content/regime-de-trabalho-misto
+        - cccontent/avaliacao-desempenho
+        - cccontent/despachos
+        - cccontent/legislacao
+        - publico/publico/cc_content/manual-de-procedimentos
+        - cccontent/modelos-administrativos
+        - cccontent/notas-internas
+        - cccontent/regulamentos-e-normas
+        - cccontent/estacionario-reitoria
+        - cccontent/estacionario-sasnova
+        - cccontent/orcamento
+        - node/152
+        - publico/publico/cc_content/relatorio-financeiro
+        - cccontent/protocolos
+        - publico/publico/cc_content/publicacoes
+        - cccontent/nova-na-web
+        - cccontent/outros-na-web
+        - cccontent/aplicacoes-reitoria-sas
+        - group/8/group-content/cc_content/category/233
+        - cccontent/sos
+        - cccontent/gestao-intranet
+        - directory/list
+        - event/lecteu-sessao-sobre-o-vento-assobiando-nas-gruas-de-lidia-jorge
+        - event/caminhadas-da-nova
+        - event/concerto-zbd-apresenta-william-basinski
+        - events/list
+        - publico/publico/news/nova-da-boas-vindas-sandra-fernandes
+        - publico/publico/news/info-rh-saida-de-colaborador-2482
+        - publico/publico/news/saida-nimsb
+        - publico/publico/news/nova-da-boas-vindas-caroline-mendes
+        - publico/publico/news/informacao-recursos-humanos-saida-de-colaborador
+        - publico/publico/news/nova-organiza-workshop-interativo-sobre-prevencao-de-burnout
+        - news/list
+        - birthdays/list
+        - missao-visao-e-valores
+        - publico/publico/cc_content/estrutura-formal
+        - publico/publico/cc_content/estrutura-formal-sasnova
+        - cccontent/orcamento-0
+        - plano-estrategico
+        - group/8/group-content/cc_content/category/235
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
