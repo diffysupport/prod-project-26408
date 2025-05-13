@@ -7,7 +7,7 @@ basic:
     breakpoints:
         - 560
         - 768
-        - 1200
+        - 1250
     pages:
         - /
         - user/login
