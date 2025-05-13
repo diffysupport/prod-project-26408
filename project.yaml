@@ -5,8 +5,8 @@ basic:
         staging: 'https://reitoriaunl.dev9.javali.pt/'
         development: ''
     breakpoints:
-        - 640
-        - 1024
+        - 560
+        - 768
         - 1200
     pages:
         - /
